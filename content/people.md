@@ -153,7 +153,7 @@ Ladislas also has a very nice personal blog with great tutorials on data analysi
 <a aria-label="My RG" target="_blank" href="https://www.researchgate.net/profile/Bertrand_Beffara"><i class="icon ai ai-researchgate" aria-hidden="true"></i></a>  
 
 **Research interests**  
-Cellular Neuroscience &#215; Behavioral biology &#215; data analysis &#215; methodology &#215; epistemology &#215; ethics  
+Behavioral ecology &#215; evolution &#215; cell neurobiology &#215; data analysis &#215; methodology &#215; epistemology &#215; ethics  
 <br/>
 **Research projects**  
 <a href="/projects#moral" target="_blank">Moral extremism and speciesism</a>  
@@ -162,7 +162,7 @@ Cellular Neuroscience &#215; Behavioral biology &#215; data analysis &#215; meth
 **Geographical Location**  
 Villeurbanne, France  
 <br/>
-<a href="https://www.linkedin.com/in/bertrand-beffara-285327112/" target="_blank"><b>CV</b></a>
+<a href="/img/CV_BEFFARA_Bertrand" target="_blank"><b>CV</b></a>
 <br/>
 
 ------------------
