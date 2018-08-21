@@ -1,0 +1,226 @@
+<!DOCTYPE HTML>
+<html>
+
+    <head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<meta name="description" content="Slowpen Science Laboratory">
+	<meta name="author" content="Walden III">
+	<meta name="generator" content="Hugo 0.37" />
+	<title>How to embed http websites in your R presentation ? &middot; The Walden III Slowpen Science Laboratory</title>
+	<!-- Stylesheets -->
+	
+	<link rel="stylesheet" href="http://slowpen.science/css/main.css"/>
+	
+	
+
+	
+		<link rel="stylesheet" href="http://slowpen.science/override.css">
+	
+
+	<!-- Custom Fonts -->
+	<link href="http://slowpen.science/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	
+	
+
+	
+
+	
+	<link rel="shortcut icon" type="image/x-icon" href="">
+	<link rel="icon" type="image/x-icon" href="">
+	
+
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+	<script src="js/ie/html5shiv.js"></script>
+	<script src="js/ie/html5shiv.jsrespond.min.js"></script>
+	<![endif]-->
+	
+</head>
+    <body>
+
+    <!-- Wrapper -->
+        <div id="wrapper">
+
+            <!-- Header -->
+    <header id="header" class="alt">
+        <a href="http://slowpen.science/" class="logo"><strong>The Walden III</strong> <span>Slowpen Science Laboratory</span></a>
+        <nav>
+            <a href="#menu">Menu</a>
+        </nav>
+    </header>
+
+<!-- Menu -->
+    <nav id="menu">
+        <ul class="links">
+            
+                <li><a href="http://slowpen.science/">Home</a></li>
+            
+                <li><a href="http://slowpen.science/lab">lab</a></li>
+            
+                <li><a href="http://slowpen.science/people">people</a></li>
+            
+                <li><a href="http://slowpen.science/projects">projects</a></li>
+            
+                <li><a href="https://medium.com/@slowpenscience">blog</a></li>
+            
+                <li><a href="http://slowpen.science/toolbox">toolbox</a></li>
+            
+                <li><a href="http://slowpen.science/outputs">outputs</a></li>
+            
+
+        </ul>
+        <ul class="actions vertical">
+            
+                <li><a href="http://slowpen.science/intra" class="button special fit">Log In</a></li>
+            
+            
+        </ul>
+    </nav>
+
+        <!-- Main -->
+            <div id="main" class="alt">
+
+                
+                    <section id="one">
+                        <div class="inner">
+                            <header class="major">
+                                <h1>How to embed http websites in your R presentation ?</h1>
+                            </header>
+                            
+                            <!-- AddToAny BEGIN -->
+
+<p><div class="a2a_kit a2a_kit_size_16 a2a_default_style">
+Brice Beffara - March 18, 2018
+<a class="a2a_button_twitter"></a>
+<a class="a2a_button_facebook"></a>
+<a class="a2a_button_email"></a>
+<a class="a2a_button_linkedin"></a>
+</div>
+<script async src="https://static.addtoany.com/menu/page.js"></script>
+<!-- AddToAny END --></p>
+
+<p>Sometimes it can be usefull to incorporate web content in a presentation. I needed it in one of my <a href = "https://support.rstudio.com/hc/en-us/sections/200130218-R-Presentations" target = "_blank">R presentations</a> few months ago and did not know about any straightfoward solution to do so.</p>
+
+<p>Aggregating - fragmented but usefull - discussions found on forums, I came to a kind of solution using <a href = "https://www.w3schools.com/tags/tag_iframe.asp" target = "_blank">&lt;iframe&gt;</a>. Usually</p>
+
+<blockquote>
+<p>&ldquo;The HTML &lt;iframe&gt; element represents a nested browsing context, effectively embedding another HTML page into the current page&rdquo; - <a href = "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe" target = "_blank">developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe</a></p>
+</blockquote>
+
+<p>It took me time to get a satisfying result because of my lack of knowledge about <a href = "https://en.wikipedia.org/wiki/HTML" target = "_blank">HTML</a> and <a href = "https://en.wikipedia.org/wiki/Cascading_Style_Sheets" target = "_blank">CSS</a>. The HTML part is not very complicated to use and understand. For instance, the following &lt;iframe&gt; will embed this <a href = "http://rpsychologist.com/d3/NHST/" target = "_blank">rpsychologist.com/d3/NHST/</a> webpage with an option allowing to scroll on the page.</p>
+
+<pre><code class="language-r eval=FALSE">&lt;iframe src=&quot;http://rpsychologist.com/d3/NHST/&quot; scrolling= &quot;yes&quot;&gt;&lt;/iframe&gt;
+</code></pre>
+
+<p>However, if you want to display it properly, you will need some CSS at the beginning of your .rpres file. For instance, this will allow to center the content and display it with a correct size. You will not be able to preview the result directly in RStudio. You will have to choose &ldquo;View in Browser&rdquo; in the &ldquo;Presentation&rdquo; tab. For more information on CSS style for &lt;iframe&gt;, you can have a look at <a href = "https://www.thoughtco.com/iframes-and-css-3468669" target = "_blank">www.thoughtco.com/iframes-and-css-3468669/</a>. You can copy-paste the example bellow in your .rpres file to visualise the result.</p>
+
+<pre><code class="language-r eval=FALSE">&lt;style&gt;
+  
+iframe {
+  position: absolute;
+  top: 50%; 
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  min-width: 100vw; 
+  min-height: 100vh; 
+  z-index: -1000; 
+  overflow: hidden;
+}
+
+&lt;/style&gt;
+
+http in R presentation
+========================================================
+author: An animal
+date: A day
+autosize: true
+
+========================================================
+
+&lt;iframe src=&quot;http://rpsychologist.com/d3/NHST/&quot; scrolling= &quot;yes&quot;&gt;&lt;/iframe&gt;
+</code></pre>
+
+<p>Better solutions surely exist. For instance, the proposition described here does not work on all browsers. Besides, it only works for http but not https pages. If you konw about a better way to do it, let me know !</p>
+
+<p><div id="disqus_thread"></div>
+<script></p>
+
+<p>/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: <a href="https://disqus.com/admin/universalcode/#configuration-variables*/">https://disqus.com/admin/universalcode/#configuration-variables*/</a>
+/*
+var disqus_config = function () {
+this.page.url = <a href="http://slowpen.science/blog/httpres/">http://slowpen.science/blog/httpres/</a>;  // Replace PAGE_URL with your page&rsquo;s canonical URL variable
+this.page.identifier = httpres; // Replace PAGE_IDENTIFIER with your page&rsquo;s unique identifier variable
+};
+*/
+(function() { // DON&rsquo;T EDIT BELOW THIS LINE
+var d = document, s = d.createElement(&lsquo;script&rsquo;);
+s.src = &lsquo;<a href="https://slowpen-science.disqus.com/embed.js'">https://slowpen-science.disqus.com/embed.js'</a>;
+s.setAttribute(&lsquo;data-timestamp&rsquo;, +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript></p>
+
+                        </div>
+                    </section>
+            </div>
+            
+        <!-- Footer -->
+            
+                <!-- Footer -->
+    <footer id="footer">
+        <div class="inner">
+            <ul class="icons">
+                
+                    <li><a href="https://twitter.com/SlowpenScience" class="icon alt fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+                
+                    <li><a href="https://github.com/SlowpenScience" class="icon alt fa-github" target="_blank"><span class="label">GitHub</span></a></li>
+                
+                    <li><a href="mailto:walden@slowpen.science" class="icon alt fa-envelope" target="_blank"><span class="label">Mail</span></a></li>
+                
+                    <li><a href="https://osf.io/8nvfj/" class="icon alt ai ai-osf" target="_blank"><span class="label">OSF</span></a></li>
+                
+
+            </ul>
+            <ul class="copyright">
+                <li>&copy; The Walden III Slowpen Science Laboratory</li>
+                
+                <li>Design:  <a href="https://www.html5up.net">HTML5 UP</a></li>
+                
+                <li>Pics:  <a href="https://twitter.com/amebret">Amélie Bret</a></li>
+                
+            </ul>
+        </div>
+    </footer>
+
+            
+        </div>
+
+    <!-- Scripts -->
+        <!-- Scripts -->
+    <!-- jQuery -->
+    <script src="http://slowpen.science/js/jquery.min.js"></script>
+    <script src="http://slowpen.science/js/jquery.scrolly.min.js"></script>
+    <script src="http://slowpen.science/js/jquery.scrollex.min.js"></script>
+    <script src="http://slowpen.science/js/skel.min.js"></script>
+    <script src="http://slowpen.science/js/util.js"></script>
+
+    
+
+    <!-- Main JS -->
+    <script src="http://slowpen.science/js/main.js"></script>
+
+    
+
+    
+        <script src="http://slowpen.science/"></script>
+    
+
+    </body>
+</html>

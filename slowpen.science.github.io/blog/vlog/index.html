@@ -1,0 +1,190 @@
+<!DOCTYPE HTML>
+<html>
+
+    <head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<meta name="description" content="Slowpen Science Laboratory">
+	<meta name="author" content="Walden III">
+	<meta name="generator" content="Hugo 0.37" />
+	<title>Vlog &middot; The Walden III Slowpen Science Laboratory</title>
+	<!-- Stylesheets -->
+	
+	<link rel="stylesheet" href="/css/main.css"/>
+	
+	
+
+	
+		<link rel="stylesheet" href="/override.css">
+	
+
+	<!-- Custom Fonts -->
+	<link href="/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	
+	
+
+	
+
+	
+	<link rel="shortcut icon" type="image/x-icon" href="">
+	<link rel="icon" type="image/x-icon" href="">
+	
+
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+	<script src="js/ie/html5shiv.js"></script>
+	<script src="js/ie/html5shiv.jsrespond.min.js"></script>
+	<![endif]-->
+	
+</head>
+    <body>
+
+    <!-- Wrapper -->
+        <div id="wrapper">
+
+            <!-- Header -->
+    <header id="header" class="alt">
+        <a href="/" class="logo"><strong>The Walden III</strong> <span>Slowpen Science Laboratory</span></a>
+        <nav>
+            <a href="#menu">Menu</a>
+        </nav>
+    </header>
+
+<!-- Menu -->
+    <nav id="menu">
+        <ul class="links">
+            
+                <li><a href="/">Home</a></li>
+            
+                <li><a href="/lab">lab</a></li>
+            
+                <li><a href="/people">people</a></li>
+            
+                <li><a href="/projects">projects</a></li>
+            
+                <li><a href="/blog">blo</a></li>
+            
+                <li><a href="/toolbox">toolbox</a></li>
+            
+                <li><a href="/outputs">outputs</a></li>
+            
+
+        </ul>
+        <ul class="actions vertical">
+            
+                <li><a href="/intra" class="button special fit">Log In</a></li>
+            
+            
+        </ul>
+    </nav>
+
+        <!-- Main -->
+            <div id="main" class="alt">
+
+                
+                    <section id="one">
+                        <div class="inner">
+                            <header class="major">
+                                <h1>Vlog</h1>
+                            </header>
+                            
+                            <pre><code class="language-r setup, include=FALSE">knitr::opts_chunk$set(echo = TRUE)
+</code></pre>
+
+<p>Sometimes it can be usefull to incorporate web content in a presentation. I needed it in my <a href = "https://support.rstudio.com/hc/en-us/sections/200130218-R-Presentations" target = "_blank">R presentation</a> few months ago and did not know about any straightfoward solution to do so.</p>
+
+<p>Thanks to many discussions on many forums, I came to a kind of solution using <a href = "https://www.w3schools.com/tags/tag_iframe.asp" target = "_blank">&lt;iframe&gt;</a>. Usually &ldquo;The HTML &lt;iframe&gt; element represents a nested browsing context, effectively embedding another HTML page into the current page&rdquo; (<a href = "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe" target = "_blank"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe">https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe</a></a>).</p>
+
+<p>It took me time to get a satisfying result because of my lack of knowledge about <a href = "https://en.wikipedia.org/wiki/HTML" target = "_blank">HTML</a> and <a href = "https://en.wikipedia.org/wiki/Cascading_Style_Sheets" target = "_blank">CSS</a>. The HTML part is not very complicated to use and understand. For instance, the following &lt;iframe&gt; will embed this <a href = "http://rpsychologist.com/d3/NHST/" target = "_blank"><a href="http://rpsychologist.com/d3/NHST/">http://rpsychologist.com/d3/NHST/</a></a> webpage with an option allowing to scroll on the page.</p>
+
+<pre><code class="language-r eval=FALSE">&lt;iframe src=&quot;http://rpsychologist.com/d3/NHST/&quot; scrolling= &quot;yes&quot;&gt;&lt;/iframe&gt;
+</code></pre>
+
+<p>However, if you want to display it properly, you will need some CSS at the beginning of your .rpres file. For instance, this will allow to center the content and display it with a correct size. You will not be able to preview the result directly in RStudio. You will have to choose &ldquo;View in Browser&rdquo; in the &ldquo;Presentation&rdquo; tab. For more on CSS style, you can have a look at . You can copy-paste the example bellow in your .rpres file to visualise the result.</p>
+
+<pre><code class="language-r eval=FALSE">&lt;style&gt;
+  
+iframe {
+  position: absolute;
+  top: 50%; 
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  min-width: 100vw; 
+  min-height: 100vh; 
+  z-index: -1000; 
+  overflow: hidden;
+}
+
+&lt;/style&gt;
+
+http in R presentation
+========================================================
+author: An animal
+date: A day
+autosize: true
+
+========================================================
+
+&lt;iframe src=&quot;http://rpsychologist.com/d3/NHST/&quot; scrolling= &quot;yes&quot;&gt;&lt;/iframe&gt;
+</code></pre>
+
+<p>Better solutions surely exist. For instance, the proposition described here does not work on all browsers. Besides, it only works for http but not https pages. If you konw about a better way to do it, let me know !</p>
+
+                        </div>
+                    </section>
+            </div>
+            
+        <!-- Footer -->
+            
+                <!-- Footer -->
+    <footer id="footer">
+        <div class="inner">
+            <ul class="icons">
+                
+                    <li><a href="https://twitter.com/SlowpenScience" class="icon alt fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+                
+                    <li><a href="https://github.com/SlowpenScience" class="icon alt fa-github" target="_blank"><span class="label">GitHub</span></a></li>
+                
+                    <li><a href="mailto:walden@slowpen.science" class="icon alt fa-envelope" target="_blank"><span class="label">Mail</span></a></li>
+                
+                    <li><a href="https://osf.io/8nvfj/" class="icon alt ai ai-osf" target="_blank"><span class="label">OSF</span></a></li>
+                
+
+            </ul>
+            <ul class="copyright">
+                <li>&copy; The Walden III Slowpen Science Laboratory</li>
+                
+                <li>Design:  <a href="https://www.html5up.net">HTML5 UP</a></li>
+                
+            </ul>
+        </div>
+    </footer>
+
+            
+        </div>
+
+    <!-- Scripts -->
+        <!-- Scripts -->
+    <!-- jQuery -->
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/jquery.scrolly.min.js"></script>
+    <script src="/js/jquery.scrollex.min.js"></script>
+    <script src="/js/skel.min.js"></script>
+    <script src="/js/util.js"></script>
+
+    
+
+    <!-- Main JS -->
+    <script src="/js/main.js"></script>
+
+    
+
+    
+        <script src="/"></script>
+    
+
+    </body>
+</html>

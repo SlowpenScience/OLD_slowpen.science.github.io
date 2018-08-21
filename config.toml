@@ -1,0 +1,219 @@
+# Site settings
+baseURL = "http://slowpen.science/"
+publishDir = "docs"
+languageCode = "en"
+title = "The Walden III Slowpen Science Laboratory"
+theme = "forty"
+
+# Enable comments by entering your Disqus shortname
+disqusShortname = ""
+
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = ""
+
+[params]
+  # You can use Markdown syntax for urls [text](//url.to/source)
+  # To create multi-line text in strings use the """example Text""" format
+  #
+  # All icons using Fontawesome's icon font. Look at fontawesome.io/icons
+  # for more icons. The icons are represented by their corresponding
+  # CSS class.
+
+  # Provide your metadata here.
+  name = "Walden III"
+  description = "Slowpen Science Laboratory"
+
+  # Link custom assets relative to /static
+  custom_css = ["override.css"]
+  custom_js  = [""]
+  favicon    = ["favicon.ico"]
+
+  # Just a custom image variable, please define it in .md files for content.
+  image = ""
+
+  # 404 error customization
+  [params.error404]
+    heading = "Page couldn't be found"
+    text = "Please visit slowpen.science"
+
+  # Navigation Section
+  [params.navigation]
+    title = "The Walden III"
+    subtitle = "Slowpen Science Laboratory"
+    menu = "Menu"
+    # Optional logo as brand stored in img/
+    # logo = "logo.png"
+
+    [[params.navigation.links]]
+      name = "Home"
+      url = "#"
+
+    [[params.navigation.links]]
+      name = "lab"
+      url = "lab"
+
+    [[params.navigation.links]]
+      name = "people"
+      url = "people"
+
+    [[params.navigation.links]]
+      name = "projects"
+      url = "projects"
+      
+    [[params.navigation.links]]
+      name = "blog"
+      url = "https://medium.com/@slowpenscience"
+      
+    [[params.navigation.links]]
+      name = "toolbox"
+      url = "toolbox"
+      
+    [[params.navigation.links]]
+      name = "outputs"
+      url = "outputs"
+ 
+      
+    # Add custom links here by uncommenting code below. To remove links just delete
+    # the [[params.navigation.links]] map associated with that link. Copy and paste
+    # code below if you need more links. Buttons work in the same way.
+    # [[params.navigation.links]]
+    #    name = "NameOfLink"
+    #    url = "UrlOfLink"
+
+
+    # Button Style 1
+    [[params.navigation.button1]]
+      name = "Log In"
+      url = "intra"
+
+
+  # Banner section
+  [params.banner]
+    # To change the background image on the homepage banner, replace 'banner.jpg' in
+    # the 'static/img' folder.
+    title = "Walden III"
+    subtitle = "Slowpen Science Laboratory"
+
+
+  # Tiles Section
+  [params.tiles]
+    enable = true
+    # Display your showcases here.
+    
+    [[params.tiles.showcase]]
+      title = "Lab"
+      subtitle = "What it is"
+      image = "pic01.jpg"
+      url = "lab"
+
+    [[params.tiles.showcase]]
+      title = "People"
+      subtitle = "Who we are"
+      image = "pic02.jpg"
+      url = "people"
+
+    [[params.tiles.showcase]]
+      title = "Projects"
+      subtitle = "What we do"
+      image = "pic03.jpg"
+      url = "projects"
+
+    [[params.tiles.showcase]]
+      title = "Blog"
+      subtitle = "What we tell"
+      image = "pic04.jpg"
+      url = "https://medium.com/@slowpenscience"
+
+    [[params.tiles.showcase]]
+      title = "Toolbox"
+      subtitle = "What we use"
+      image = "pic05.jpg"
+      url = "toolbox"
+
+    [[params.tiles.showcase]]
+      title = "Outputs"
+      subtitle = "What we've done"
+      image = "pic06.jpg"
+      url = "outputs"
+    # You can make more showcases by copy and pasting the code above
+
+  [params.blog]
+    # All blogs defined in their own files. You can find example blogs
+    # at 'exampleSite/content/blogs'. Copy the 'blogs' folder into the 'content' directory
+    # at the root of this Hugo site.
+    # For more informtion take a look at the README.
+    # To add more blogs just copy and paste the code.
+
+  # Section Type Two
+
+
+  # Contact section
+  [params.contact]
+    enable = true
+    buttonSend = "Send message"
+    buttonClear = "Clear"
+
+    # Since this template is static, the contact form uses www.formspree.io as a
+    # proxy. The form makes a POST request to their servers to send the actual
+    # email. Visitors can send up to a 1000 emails each month for free.
+    #
+    # What you need to do for the setup?
+    #
+    # - set your email address under 'email' below and uncomment
+    # - upload the generated site to your server
+    # - send a dummy email yourself to confirm your account
+    # - click the confirm link in the email from www.formspree.io
+    # - you're done. Happy mailing!
+     formEmail = "walden@slowpen.science"
+
+    # Contact Section
+    # You can add multiple emails, phone numbers, or addresses
+    # by copying the corresponding map with frontmatter code.
+    [[params.contact.email]]
+    title = "Email"
+    email = "walden@slowpen.science"
+
+    [[params.contact.phone]]
+    title = "Phone"
+    phone = "+336 42 23 43 39"
+
+    [[params.contact.address]]
+    title = "Address"
+    street = "3 rue Flachet"
+    city = "69100, Villeurbane"
+    country = "France"
+
+  # Footer section
+  [params.footer]
+    enable = true
+    copyright = "The Walden III Slowpen Science Laboratory"
+
+[[params.footer.social]]
+      icon = "fa-twitter"
+      url = "https://twitter.com/SlowpenScience"
+      label = "Twitter"
+    
+    [[params.footer.social]]
+      icon = "fa-github"
+      url = "https://github.com/SlowpenScience"
+      label = "GitHub"
+
+    [[params.footer.social]]
+      icon = "fa-envelope"
+      url = "mailto:walden@slowpen.science"
+      label = "Mail"
+
+    [[params.footer.social]]
+      icon = "ai ai-osf"
+      url = "https://osf.io/8nvfj/"
+      label = "OSF"
+      
+    [[params.footer.quicklinks]]
+      text = "Design: "
+      url= "https://www.html5up.net"
+      alt = "HTML5 UP"
+      
+    [[params.footer.quicklinks]]
+      text = "Pics: "
+      url= "https://twitter.com/amebret"
+      alt = "Amélie Bret"
