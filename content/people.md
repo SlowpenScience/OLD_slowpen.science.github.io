@@ -162,7 +162,7 @@ Behavioral ecology &#215; evolution &#215; cell neurobiology &#215; data analysi
 **Geographical Location**  
 Villeurbanne, France  
 <br/>
-<a href="/img/CV_BEFFARA_Bertrand" target="_blank"><b>CV</b></a>
+<a href="/img/CV_BEFFARA_Bertrand.pdf" target="_blank"><b>CV</b></a>
 <br/>
 
 ------------------
