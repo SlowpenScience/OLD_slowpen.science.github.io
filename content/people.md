@@ -58,8 +58,9 @@ Grenoble, France
 <a aria-label="My Scholar" target="_blank" href="https://scholar.google.com/citations?user=B7sULyEAAAAJ&hl=en&oi=ao"><i class="icon ai ai-google-scholar" aria-hidden="true"></i></a>
 
 
+
 **Research interests**  
-neuroscience &#215; cognitive science &#215; ethics &#215; epistemology  
+cognitive neuroscience &#215; visual cognition &#215; binocular vision &#215; primates &#215; ecology and evolution &#215; ethics &#215; epistemology  
 <br/>
 **Research projects**  
 <a href="/projects#moral" target="_blank">Moral extremism and speciesism</a>  
@@ -69,7 +70,7 @@ neuroscience &#215; cognitive science &#215; ethics &#215; epistemology
 Toulouse, France 
 <br/>
 <br/>
-<a href="/img/cv_Yseult_Hejja.pdf" target="_blank"><b>CV</b></a>
+<a href="https://yseulthb.github.io/pdf/YHejjaBrichard_CVacademic.pdf" target="_blank"><b>CV</b></a>  
 </div>
 <br/>
 
@@ -179,7 +180,7 @@ Villeurbanne, France
 
 
 Pierrick is working on science popularisation projects, especially on the technical aspects of videos.  
-He has also his own youtube channel focused on the popularisation of psychology *[in French]* <a aria-label="My Youtube" target="_blank" href="https://www.youtube.com/channel/UCwWCBw7M0kskNlv0coVP53w?sub_confirmation=1"><i class="icon fa fa-youtube" aria-hidden="true"></i></a></p>
+He also has his own youtube channel, focusing on the popularisation of psychology. *[in French]* <a aria-label="My Youtube" target="_blank" href="https://www.youtube.com/channel/UCwWCBw7M0kskNlv0coVP53w?sub_confirmation=1"><i class="icon fa fa-youtube" aria-hidden="true"></i></a></p>
 <br/>
 **Geographical Location**  
 Clermont-Ferrand, France  

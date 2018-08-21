@@ -11,7 +11,7 @@ date: 2017-10-31T22:26:13-05:00
 draft: false
 ---
 
-Here you can find some usefull tools we use, plan to use, or just find interesting in order to improve our practices. We value free and open tools/content in order to improve transparency, sharing, reproducibility, and replicability.
+Here you will find some useful tools we use, and some tools we find interesting in order to improve our scientific practices. We attach importance to free and open tools/content in order to increase transparency, sharing, reproducibility, and replicability of scientific data.
 
 ### Commit
 
