@@ -153,7 +153,7 @@ Ladislas also has a very nice personal blog with great tutorials on data analysi
 <a aria-label="My RG" target="_blank" href="https://www.researchgate.net/profile/Bertrand_Beffara"><i class="icon ai ai-researchgate" aria-hidden="true"></i></a>  
 
 **Research interests**  
-Cognitive neuroscience &#215;Behavioral biology &#215; &#215; methodology &#215; epistemology &#215; ethics  
+Cognitive neuroscience &#215; Behavioral biology &#215; Methodology &#215; Epistemology &#215; Ethics  
 <br/>
 **Research projects**  
 <a href="/projects#moral" target="_blank">Moral extremism and speciesism</a>  
