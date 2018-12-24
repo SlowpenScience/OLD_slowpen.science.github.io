@@ -17,7 +17,7 @@ Beffara, B., Bret, A., & Nalborczyk, L. (2018, February 22). Automation in Seque
 
 ## Popularisation
 
-BEFFARA, B. (2018, October 13). Ethics and Animal Research. Science Celebration, Lyon. *[in French]*
+Beffara, B. (2018, October 13). Ethics and Animal Research. Science Celebration, Lyon. *[in French]* <a href="/img/ethics_animalresearch_Bertrand2018.pdf" target="_blank"><b>Slides</b></a>
 
 Bret, A. (2018, March 08). Conservatism and Attitude Change. <a href="http://coginnov.org/" target="_blank">Coginnov</a>, <a href="https://www.facebook.com/cinemabandepassante/" target="_blank">Bande Passante</a>, & <a href="https://lapaillasse.org/" target="_blank">La Paillasse</a>.
 
