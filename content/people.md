@@ -93,7 +93,7 @@ Toulouse, France
 
 
 **Research interests**  
-psychophysiology &#215; social cognition &#215; social behaviour &#215; methods &#215; epistemology &#215 
+psychophysiology &#215; social cognition &#215; social behaviour &#215; methods &#215; epistemology &#215  
 <br/>
 **Research projects**  
 <a href="/projects#hrvb" target="_blank"> When can heart rate variability biofeedback join the clinical armamentarium?</a>  
