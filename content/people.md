@@ -93,16 +93,14 @@ Toulouse, France
 
 
 **Research interests**  
-political psychology &#215; social psychophysiology &#215; social cognition &#215; methodology &#215; data analysis &#215; epistemology &#215; behavioural biology &#215; ethics  
+psychophysiology &#215; social cognition &#215; social behaviour &#215; methods &#215; epistemology &#215 
 <br/>
 **Research projects**  
 <a href="/projects#hrvb" target="_blank"> When can heart rate variability biofeedback join the clinical armamentarium?</a>  
-<a href="/projects#inclusive" target="_blank">What is the impact of inclusive writing on psychological representations?</a>  
-<a href="/projects#psychology" target="_blank">Psychology. Natural &or; Social &or; Biological &or; Health &or; Human &or; Animal Science</a>  
 <a href="/projects#automation" target="_blank">Automation in Sequential Testing: A commentary on Schönbrodt, Wagenmakers, Zehetleitner, and Perugini (2017)</a>  
 <br/>
 **Geographical Location**  
-Villeurbanne, France  
+Besançon - Grenoble, France  
 <br/>
 <a href="/img/cv_Brice_Beffara.pdf" target="_blank"><b>CV</b></a>
 <br/>
