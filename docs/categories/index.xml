@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on The Walden III Slowpen Science Laboratory</title>
+    <title>The Walden III Slowpen Science Laboratory</title>
     <link>http://slowpen.science/categories/</link>
-    <description>Recent content in Categories on The Walden III Slowpen Science Laboratory</description>
+    <description>Recent content on The Walden III Slowpen Science Laboratory</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sun, 18 Mar 2018 22:26:13 -0500</lastBuildDate>
@@ -12,12 +12,175 @@
     
     
     <item>
-      <title></title>
-      <link>http://slowpen.science/categories/</link>
+      <title>How to embed http websites in your R presentation ?</title>
+      <link>http://slowpen.science/blog/httpres/</link>
       <pubDate>Sun, 18 Mar 2018 22:26:13 -0500</pubDate>
       
-      <guid>http://slowpen.science/categories/</guid>
-      <description></description>
+      <guid>http://slowpen.science/blog/httpres/</guid>
+      <description>Brice Beffara - March 18, 2018       Sometimes it can be usefull to incorporate web content in a presentation. I needed it in one of my R presentations few months ago and did not know about any straightfoward solution to do so.
+Aggregating - fragmented but usefull - discussions found on forums, I came to a kind of solution using &amp;lt;iframe&amp;gt;. Usually
+ &amp;ldquo;The HTML &amp;lt;iframe&amp;gt; element represents a nested browsing context, effectively embedding another HTML page into the current page&amp;rdquo; - developer.</description>
+    </item>
+    
+    <item>
+      <title>How to embed http websites in your R presentation ?</title>
+      <link>http://slowpen.science/blog/httpres/</link>
+      <pubDate>Sun, 18 Mar 2018 22:26:13 -0500</pubDate>
+      
+      <guid>http://slowpen.science/blog/httpres/</guid>
+      <description>Brice Beffara - March 18, 2018       Sometimes it can be usefull to incorporate web content in a presentation. I needed it in one of my R presentations few months ago and did not know about any straightfoward solution to do so.
+Aggregating - fragmented but usefull - discussions found on forums, I came to a kind of solution using &amp;lt;iframe&amp;gt;. Usually
+ &amp;ldquo;The HTML &amp;lt;iframe&amp;gt; element represents a nested browsing context, effectively embedding another HTML page into the current page&amp;rdquo; - developer.</description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>http://slowpen.science/projects/</link>
+      <pubDate>Tue, 31 Oct 2017 22:42:51 -0500</pubDate>
+      
+      <guid>http://slowpen.science/projects/</guid>
+      <description>Moral extremism and speciesism  Yseult Héjja-Brichard, Bertrand Beffara, &amp;amp; Amélie Bret status = thinking &amp;amp; reading A description of this project will be available soon
+
+When can heart rate variability biofeedback join the clinical armamentarium?  Brice Beffara status = reading, thinking Critical review of the HRV biofeedback literature. Identifying blinding choices (simple, double, or triple blind designs), control conditions choices, efficiency depending on outcome measures, and possible confounding factors.</description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>http://slowpen.science/projects/</link>
+      <pubDate>Tue, 31 Oct 2017 22:42:51 -0500</pubDate>
+      
+      <guid>http://slowpen.science/projects/</guid>
+      <description>Moral extremism and speciesism  Yseult Héjja-Brichard, Bertrand Beffara, &amp;amp; Amélie Bret status = thinking &amp;amp; reading A description of this project will be available soon
+
+When can heart rate variability biofeedback join the clinical armamentarium?  Brice Beffara status = reading, thinking Critical review of the HRV biofeedback literature. Identifying blinding choices (simple, double, or triple blind designs), control conditions choices, efficiency depending on outcome measures, and possible confounding factors.</description>
+    </item>
+    
+    <item>
+      <title>Lyon Open Science</title>
+      <link>http://slowpen.science/lyon/</link>
+      <pubDate>Tue, 31 Oct 2017 22:26:13 -0500</pubDate>
+      
+      <guid>http://slowpen.science/lyon/</guid>
+      <description>Here you can find some usefull tools we use, plan to use, or just find interesting in order to improve our practices. We value free and open tools/content in order to improve transparency, sharing, reproducibility, and replicability.
+Commit Research Transparency Commitment to Research Transparency and Open Science
+Peer Reviewers&amp;rsquo; Openness Initiative Commitment to make open practices a pre-condition for more comprehensive review
+Collaborate Mattermost Open Source private cloud for team messaging</description>
+    </item>
+    
+    <item>
+      <title>Lyon Open Science</title>
+      <link>http://slowpen.science/lyon/</link>
+      <pubDate>Tue, 31 Oct 2017 22:26:13 -0500</pubDate>
+      
+      <guid>http://slowpen.science/lyon/</guid>
+      <description>Here you can find some usefull tools we use, plan to use, or just find interesting in order to improve our practices. We value free and open tools/content in order to improve transparency, sharing, reproducibility, and replicability.
+Commit Research Transparency Commitment to Research Transparency and Open Science
+Peer Reviewers&amp;rsquo; Openness Initiative Commitment to make open practices a pre-condition for more comprehensive review
+Collaborate Mattermost Open Source private cloud for team messaging</description>
+    </item>
+    
+    <item>
+      <title>People</title>
+      <link>http://slowpen.science/people/</link>
+      <pubDate>Tue, 31 Oct 2017 22:26:13 -0500</pubDate>
+      
+      <guid>http://slowpen.science/people/</guid>
+      <description>Research scholars  Amélie Bret      
+Research interests
+social cognition &amp;#215; data analysis &amp;#215; ethics &amp;#215; epistemology
+ Research projects
+Moral extremism and speciesism
+What is the impact of inclusive writing on psychological representations?
+Psychology. Natural &amp;or; Social &amp;or; Biological &amp;or; Health &amp;or; Human &amp;or; Animal Science
+A fully automatised, transparent, reproducible and blind protocol for sequential analyses
+ Geographical Location
+Grenoble, France
+ CV</description>
+    </item>
+    
+    <item>
+      <title>People</title>
+      <link>http://slowpen.science/people/</link>
+      <pubDate>Tue, 31 Oct 2017 22:26:13 -0500</pubDate>
+      
+      <guid>http://slowpen.science/people/</guid>
+      <description>Research scholars  Amélie Bret      
+Research interests
+social cognition &amp;#215; data analysis &amp;#215; ethics &amp;#215; epistemology
+ Research projects
+Moral extremism and speciesism
+What is the impact of inclusive writing on psychological representations?
+Psychology. Natural &amp;or; Social &amp;or; Biological &amp;or; Health &amp;or; Human &amp;or; Animal Science
+A fully automatised, transparent, reproducible and blind protocol for sequential analyses
+ Geographical Location
+Grenoble, France
+ CV</description>
+    </item>
+    
+    <item>
+      <title>Toolbox</title>
+      <link>http://slowpen.science/toolbox/</link>
+      <pubDate>Tue, 31 Oct 2017 22:26:13 -0500</pubDate>
+      
+      <guid>http://slowpen.science/toolbox/</guid>
+      <description>Here you will find some useful tools we use, and some tools we find interesting in order to improve our scientific practices. We attach importance to free and open tools/content in order to increase transparency, sharing, reproducibility, and replicability of scientific data.
+Commit Research Transparency Commitment to Research Transparency and Open Science
+Peer Reviewers&amp;rsquo; Openness Initiative Commitment to make open practices a pre-condition for more comprehensive review
+Collaborate Mattermost Open Source private cloud for team messaging</description>
+    </item>
+    
+    <item>
+      <title>Toolbox</title>
+      <link>http://slowpen.science/toolbox/</link>
+      <pubDate>Tue, 31 Oct 2017 22:26:13 -0500</pubDate>
+      
+      <guid>http://slowpen.science/toolbox/</guid>
+      <description>Here you will find some useful tools we use, and some tools we find interesting in order to improve our scientific practices. We attach importance to free and open tools/content in order to increase transparency, sharing, reproducibility, and replicability of scientific data.
+Commit Research Transparency Commitment to Research Transparency and Open Science
+Peer Reviewers&amp;rsquo; Openness Initiative Commitment to make open practices a pre-condition for more comprehensive review
+Collaborate Mattermost Open Source private cloud for team messaging</description>
+    </item>
+    
+    <item>
+      <title>Lab</title>
+      <link>http://slowpen.science/lab/</link>
+      <pubDate>Tue, 31 Oct 2017 22:26:09 -0500</pubDate>
+      
+      <guid>http://slowpen.science/lab/</guid>
+      <description>Slowpen = Slow &amp;#215; Open = Sustainable Science. As a part of our everyday life, science should be open, accessible and understandable to and by everyone. Invoked in decision and policy making or involved in sanitary and health advice, science has to be trustworthy and thus be robust and thought thoroughly. The first objective of science, both fundamental and applied science, should be to serve our societies, by extending our knowledge of various phenomena and offering new perspectives.</description>
+    </item>
+    
+    <item>
+      <title>Lab</title>
+      <link>http://slowpen.science/lab/</link>
+      <pubDate>Tue, 31 Oct 2017 22:26:09 -0500</pubDate>
+      
+      <guid>http://slowpen.science/lab/</guid>
+      <description>Slowpen = Slow &amp;#215; Open = Sustainable Science. As a part of our everyday life, science should be open, accessible and understandable to and by everyone. Invoked in decision and policy making or involved in sanitary and health advice, science has to be trustworthy and thus be robust and thought thoroughly. The first objective of science, both fundamental and applied science, should be to serve our societies, by extending our knowledge of various phenomena and offering new perspectives.</description>
+    </item>
+    
+    <item>
+      <title>Outputs</title>
+      <link>http://slowpen.science/outputs/</link>
+      <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
+      
+      <guid>http://slowpen.science/outputs/</guid>
+      <description>Preprints Beffara, B., Bret, A., &amp;amp; Nalborczyk, L. (2018, February 22). Automation in Sequential Testing: A commentary on Schönbrodt, Wagenmakers, Zehetleitner, and Perugini (2017). Retrieved from psyarxiv.com/v7xpg
+Tutorials Beffara, B. (2018, March 22). How to embed http websites in your R presentation ? medium.com/@slowpenscience/how-to-embed-http-websites-in-your-r-presentation-f2b2bcb7a277
+Opinions Héjja-Brichard, Y. (2018, July 10). What it means to be a scientist medium.com/@slowpenscience/what-it-means-to-be-a-scientist-40dffa96ff9f
+Bret, A. (2018, April 02). Are scientists using science ? medium.com/@slowpenscience/are-scientist-using-science-bc3a85fd321b</description>
+    </item>
+    
+    <item>
+      <title>Outputs</title>
+      <link>http://slowpen.science/outputs/</link>
+      <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
+      
+      <guid>http://slowpen.science/outputs/</guid>
+      <description>Preprints Beffara, B., Bret, A., &amp;amp; Nalborczyk, L. (2018, February 22). Automation in Sequential Testing: A commentary on Schönbrodt, Wagenmakers, Zehetleitner, and Perugini (2017). Retrieved from psyarxiv.com/v7xpg
+Tutorials Beffara, B. (2018, March 22). How to embed http websites in your R presentation ? medium.com/@slowpenscience/how-to-embed-http-websites-in-your-r-presentation-f2b2bcb7a277
+Opinions Héjja-Brichard, Y. (2018, July 10). What it means to be a scientist medium.com/@slowpenscience/what-it-means-to-be-a-scientist-40dffa96ff9f
+Bret, A. (2018, April 02). Are scientists using science ? medium.com/@slowpenscience/are-scientist-using-science-bc3a85fd321b</description>
     </item>
     
   </channel>
