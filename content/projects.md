@@ -62,5 +62,5 @@ A description of this project will be available soon
 
 ###### status = Being revised for further consideration at Meta-Psychology
 
-Initially, this project was called "Automation in Sequential Testing: A commentary on Schönbrodt, Wagenmakers, Zehetleitner, and Perugini (2017)". We submitted this comment to Meta-Psychology and received very helpfull reviews. We decided to modify our work from a comment to a full tutorial. We will propose a tutorial on automation from data collection to data analysis in the case of sequential data analysis.
+Initially, this project was called "Automation in Sequential Testing: A commentary on Schönbrodt, Wagenmakers, Zehetleitner, and Perugini (2017)". We submitted this comment to Meta-Psychology and received very helpful reviews. We decided to modify our work from a comment to a full tutorial. We will propose a tutorial on automation from data collection to data analysis in the case of sequential data analysis.
 
