@@ -34,7 +34,7 @@ social cognition &#215; data analysis &#215; ethics &#215; epistemology
 <a href="/projects#moral" target="_blank">Moral extremism and speciesism</a>  
 <a href="/projects#inclusive" target="_blank">What is the impact of inclusive writing on psychological representations?</a>  
 <a href="/projects#psychology" target="_blank">Psychology. Natural &or; Social &or; Biological &or; Health &or; Human &or; Animal Science</a>  
-<a href="/projects#automation" target="_blank">Automation in Sequential Testing: A commentary on Schönbrodt, Wagenmakers, Zehetleitner, and Perugini (2017)</a>  
+<a href="/projects#automation" target="_blank">A fully automatised, transparent, reproducible and blind protocol for sequential analyses</a>  
 <br/>
 **Geographical Location**  
 Grenoble, France  
@@ -97,10 +97,10 @@ psychophysiology &#215; social cognition &#215; social behaviour &#215; methods 
 <br/>
 **Research projects**  
 <a href="/projects#hrvb" target="_blank"> When can heart rate variability biofeedback join the clinical armamentarium?</a>  
-<a href="/projects#automation" target="_blank">Automation in Sequential Testing: A commentary on Schönbrodt, Wagenmakers, Zehetleitner, and Perugini (2017)</a>  
+<a href="/projects#automation" target="_blank">A fully automatised, transparent, reproducible and blind protocol for sequential analyses</a>  
 <br/>
 **Geographical Location**  
-Besançon - Grenoble, France  
+Besançon, France  
 <br/>
 <a href="/img/cv_Brice_Beffara.pdf" target="_blank"><b>CV</b></a>
 <br/>
@@ -126,7 +126,7 @@ href="https://scholar.google.com/citations?user=na-dkLYAAAAJ&hl=en"><i class="ic
 psychophysiology &#215; data analysis &#215; methodology &#215; epistemology  
 <br/>
 **Research projects**  
-<a href="/projects#automation" target="_blank">Automation in Sequential Testing: A commentary on Schönbrodt, Wagenmakers, Zehetleitner, and Perugini (2017)</a>  
+<a href="/projects#automation" target="_blank">A fully automatised, transparent, reproducible and blind protocol for sequential analyses</a>  
 <br/>
 **Geographical Location**  
 Ghent, Belgium  
