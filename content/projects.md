@@ -56,10 +56,11 @@ A description of this project will be available soon
 --------------------
 
 <a name="automation"></a>
-### Automation in Sequential Testing: A commentary on Schönbrodt, Wagenmakers, Zehetleitner, and Perugini (2017) <a aria-label="My OSF" target="_blank" href="https://osf.io/mwtvk/"><i class="icon ai ai-osf" aria-hidden="true"></i></a>
+### A fully automatised, transparent, reproducible and blind protocol for sequential analyses <a aria-label="My OSF" target="_blank" href="https://osf.io/mwtvk/"><i class="icon ai ai-osf" aria-hidden="true"></i></a>
 
 ##### Brice Beffara, Amélie Bret, & Ladislas Nalborczyk
 
-###### status = paper submitted
+###### status = Being revised for further consideration at Meta-Psychology
 
-A description of this project will be available soon
+Initially, this project was called "Automation in Sequential Testing: A commentary on Schönbrodt, Wagenmakers, Zehetleitner, and Perugini (2017)". We submitted this comment to Meta-Psychology and received very helpful reviews. We decided to modify our work from a comment to a full tutorial. We will propose a tutorial on automation from data collection to data analysis in the case of sequential data analysis.
+

@@ -34,7 +34,7 @@ social cognition &#215; data analysis &#215; ethics &#215; epistemology
 <a href="/projects#moral" target="_blank">Moral extremism and speciesism</a>  
 <a href="/projects#inclusive" target="_blank">What is the impact of inclusive writing on psychological representations?</a>  
 <a href="/projects#psychology" target="_blank">Psychology. Natural &or; Social &or; Biological &or; Health &or; Human &or; Animal Science</a>  
-<a href="/projects#automation" target="_blank">Automation in Sequential Testing: A commentary on Schönbrodt, Wagenmakers, Zehetleitner, and Perugini (2017)</a>  
+<a href="/projects#automation" target="_blank">A fully automatised, transparent, reproducible and blind protocol for sequential analyses</a>  
 <br/>
 **Geographical Location**  
 Grenoble, France  
@@ -60,7 +60,7 @@ Grenoble, France
 
 
 **Research interests**  
-cognitive neuroscience &#215; visual cognition &#215; binocular vision &#215; primates &#215; ecology and evolution &#215; behavioural ecology &#215; ethics &#215; epistemology  
+cognitive neuroscience &#215; visual cognition &#215; binocular vision &#215  
 <br/>
 **Research projects**  
 <a href="/projects#moral" target="_blank">Moral extremism and speciesism</a>  
@@ -93,16 +93,14 @@ Toulouse, France
 
 
 **Research interests**  
-political psychology &#215; social psychophysiology &#215; social cognition &#215; methodology &#215; data analysis &#215; epistemology &#215; behavioural biology &#215; ethics  
+psychophysiology &#215; social cognition &#215; social behaviour &#215; methods &#215; epistemology   
 <br/>
 **Research projects**  
 <a href="/projects#hrvb" target="_blank"> When can heart rate variability biofeedback join the clinical armamentarium?</a>  
-<a href="/projects#inclusive" target="_blank">What is the impact of inclusive writing on psychological representations?</a>  
-<a href="/projects#psychology" target="_blank">Psychology. Natural &or; Social &or; Biological &or; Health &or; Human &or; Animal Science</a>  
-<a href="/projects#automation" target="_blank">Automation in Sequential Testing: A commentary on Schönbrodt, Wagenmakers, Zehetleitner, and Perugini (2017)</a>  
+<a href="/projects#automation" target="_blank">A fully automatised, transparent, reproducible and blind protocol for sequential analyses</a>  
 <br/>
 **Geographical Location**  
-Villeurbanne, France  
+Besançon, France  
 <br/>
 <a href="/img/cv_Brice_Beffara.pdf" target="_blank"><b>CV</b></a>
 <br/>
@@ -128,7 +126,7 @@ href="https://scholar.google.com/citations?user=na-dkLYAAAAJ&hl=en"><i class="ic
 psychophysiology &#215; data analysis &#215; methodology &#215; epistemology  
 <br/>
 **Research projects**  
-<a href="/projects#automation" target="_blank">Automation in Sequential Testing: A commentary on Schönbrodt, Wagenmakers, Zehetleitner, and Perugini (2017)</a>  
+<a href="/projects#automation" target="_blank">A fully automatised, transparent, reproducible and blind protocol for sequential analyses</a>  
 <br/>
 **Geographical Location**  
 Ghent, Belgium  
@@ -153,7 +151,7 @@ Ladislas also has a very nice personal blog with great tutorials on data analysi
 <a aria-label="My RG" target="_blank" href="https://www.researchgate.net/profile/Bertrand_Beffara"><i class="icon ai ai-researchgate" aria-hidden="true"></i></a>  
 
 **Research interests**  
-Behavioral ecology &#215; evolution &#215; cell neurobiology &#215; data analysis &#215; methodology &#215; epistemology &#215; ethics  
+Cognitive neuroscience &#215; Behavioral biology &#215; Methodology &#215; Epistemology &#215; Ethics  
 <br/>
 **Research projects**  
 <a href="/projects#moral" target="_blank">Moral extremism and speciesism</a>  
