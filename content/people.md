@@ -55,7 +55,7 @@ Grenoble, France
 <a aria-label="My Twitter" target="_blank" href="https://twitter.com/Izzie_Hb"><i class="icon fa fa-twitter" aria-hidden="true"></i></a>
 <a aria-label="My OSF" target="_blank" href="https://osf.io/nd82r"><i class="icon ai ai-osf" aria-hidden="true"></i></a>
 <a aria-label="My RG" target="_blank" href="https://www.researchgate.net/profile/Yseult_Hejja-Brichard"><i class="icon ai ai-researchgate" aria-hidden="true"></i></a>
-# <a aria-label="My Scholar" target="_blank" #href="https://scholar.google.com/citations?user=B7sULyEAAAAJ&hl=en&oi=ao"><i class="icon ai #ai-google-scholar" aria-hidden="true"></i></a>
+<a aria-label="My Scholar" target="_blank" href="https://scholar.google.com/citations?user=B7sULyEAAAAJ&hl=en&oi=ao"><i class="icon ai ai-google-scholar" aria-hidden="true"></i></a>
 
 
 
