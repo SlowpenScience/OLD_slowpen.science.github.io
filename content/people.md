@@ -60,7 +60,7 @@ Grenoble, France
 
 
 **Research interests**  
-cognitive neuroscience &#215; visual cognition &#215; binocular vision &#215; ethics
+cognitive neuroscience &#215; visual cognition &#215; binocular vision &#215; ethics 
 <br/>
 **Research projects**  
 <a href="/projects#moral" target="_blank">Moral extremism and speciesism</a>  
